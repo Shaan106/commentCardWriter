@@ -8,9 +8,13 @@
 import SwiftUI
 
 struct ContentView: View {
+    var subjects = ["Physics","Biology","Chemistry","Computer Science", "Greek"]
+    @State private var selectedSubject = "Computer Science"
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            
+        }
     }
 }
 
